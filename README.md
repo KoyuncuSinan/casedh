@@ -1,7 +1,7 @@
 ## Live Version
 This repository contains a responsive webpage that showcases a dashboard showing  dynamic contents from a third-party API.
 
-- You can see the live version of the project from here: casedh.vercel.app
+- You can see the live version of the project from here: https://casedh.vercel.app
 
 ## Technologies Used
 
