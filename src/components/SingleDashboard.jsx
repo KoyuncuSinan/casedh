@@ -35,6 +35,8 @@ const Visualization = memo(({ type, name }) => {
         </div>
     );
 });
+Visualization.displayName = 'Visualization';
+
 
 const Map = memo(({ name }) => (
     <div className='flex flex-row justify-start items-center'>
@@ -49,6 +51,8 @@ const Text = memo(({ text }) => (
         <p>{text}</p>
     </div>
 ));
+Map.displayName = 'Map';
+Text.displayName = 'Text';
 
 export default function SingleDashboard({dashboard, expanded, onExpand, isStarred, toggleStarred, selectedFilter}){
     const [details, setDetails] = useState(null);
