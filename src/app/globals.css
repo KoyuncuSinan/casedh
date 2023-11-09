@@ -16,12 +16,15 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+html {
+  background-color:rgb(243, 243, 243)
+}
+
+br{
+  color: gray;
+}
+
+.filter-items::before{
+  content:"Filter items ";
+  color:#718096
 }
